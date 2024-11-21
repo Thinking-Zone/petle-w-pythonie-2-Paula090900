@@ -1,6 +1,6 @@
 licznik = 0
 while True:
-   odpowiedz = input("Czy pada? (tak/nie/ni): ").strip().lower()
+   odpowiedz = input("Czy pada? (tak/nie): ").strip().lower()
    if odpowiedz == "tak":
        licznik += 1
    if odpowiedz == "nie" or odpowiedz == "nie wiem": break
